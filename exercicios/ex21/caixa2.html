@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+
+    <style>
+        body {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            background-color: coral;
+        }
+
+        header {
+            background-color: bisque;
+            margin: 8px 0px;
+            height: 100px;
+            border-radius: 6px 6px 2px 2px;
+            box-shadow: 0px 5px 3px -4px rgba(0, 0, 0, 0.504);
+            
+        }
+
+        header > h1 {
+            margin: 9px 0px;
+            text-align: center;
+            color: rgb(48, 13, 0);
+            text-shadow: 0px 2px rgb(255, 147, 105);
+        }
+
+        nav {
+            margin: 0px 10px;
+            padding: 10px;
+            border-radius: 8px;
+            background-color: rgb(222, 199, 172);
+            box-shadow: -3px 4px 8px -3px rgb(65 41 13 / 71%);
+        }
+
+        nav > a {
+            font-weight: bold;
+            text-decoration: none;
+            color: rgb(51, 26, 0);;
+            margin: 0px auto;
+        }
+
+        nav > a:hover {
+            color: rgb(255, 220, 182);
+            text-decoration: underline;
+        }
+
+        main {
+            background-color: rgb(255, 226, 191);
+            padding: 10px;
+        }
+
+        main > h2 {
+            text-align: center;
+            color: rgb(48, 13, 0);;
+            background-color: rgb(250, 207, 154);
+            padding: 10px 0px;
+            margin: 0px;
+        }
+
+        section > h3 {
+            margin: 10px 0px;
+        } 
+
+        main > section {
+            background-color: rgb(166, 138, 104);
+        }
+
+        footer > h4 {
+            margin: 0px;
+        }
+
+        footer {
+            margin-top: 10px;
+            padding: 8px;
+            color: blanchedalmond;
+            text-align: center;
+            background-color: rgb(41, 36, 30);
+        }
+
+    </style>
+    
+</head>
+<body>
+    <header>
+        <h1>FilmesFlix</h1>
+        <nav>
+            <a href="#">Ação</a>
+            <a href="#">Aventura</a>
+            <a href="#">Comédia</a>
+            <a href="#">Drama</a>
+            <a href="#">Ficção-Científica</a>
+        </nav>
+    </header>
+    <main>
+        <h2>Filmes em destaque essa semana</h2>
+        <section>
+            <h3>Hambo 2</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut adipisci beatae illum, dolore in accusamus unde. Minus, accusamus placeat similique aperiam rerum ducimus mollitia? Magni quisquam tenetur consectetur esse porro!</p>
+            <aside>
+                <p>Fonte: Lorem Ipsum</p>
+            </aside>
+        </section>
+    </main>
+    <footer>
+        <h4>Criado por Gabriel Mendes</h4>
+    </footer>
+</body>
+</html>

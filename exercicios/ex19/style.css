@@ -1,0 +1,41 @@
+body {
+    background-color: rgb(186, 115, 252);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    color: rgb(95, 33, 122);
+    text-align: center;
+}
+
+h1#principal {
+    color: rgb(250, 233, 255);
+    background-color: rgb(125, 39, 162);
+    text-align: center;
+    text-shadow: 0px 3px 2px #422a3e;
+}
+
+h2 {
+    color: rgb(42, 0, 82);
+}
+
+h2.topico {
+    text-align: center;
+}
+
+h2.basico {
+    background-color: #BE00F7;
+}
+
+h2.intermediario {
+    background-color: #9f00d0;
+}
+
+h2.avancado {
+    background-color: #750098;
+}
+
+p {
+    text-indent: 10px;
+    text-align: justify;
+}

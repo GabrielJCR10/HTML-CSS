@@ -1,0 +1,111 @@
+@charset "UTF-8";
+
+
+@font-face {
+    font-family: "Android";
+    src: url(fontes/idroid.otf);
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=UnifrakturMaguntia&display=swap');
+
+
+body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.center-picture {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body {
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(147, 221, 179);
+}
+
+header {
+    background-image: linear-gradient(to top, rgb(26, 92, 56), rgb(59, 213, 128));
+    box-shadow: 0px 2px 6px #0000008c;;
+    color: white;
+    text-align: center;
+    height: 170px;
+}
+
+header > h1 {
+    text-shadow: 0px 3px 4px #0000008f;;
+    padding-top: 15px;
+}
+
+main {
+    width: 840px;
+    box-shadow: 0px 2px 4px 1px #00000078;;
+    margin: 6px auto;
+    background-color: white;
+}
+
+pre {
+    margin-top: 10px;
+}
+
+pre > p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 1px 2px 2px rgb(0 0 0);
+}
+
+ul#menu > a {
+    padding: 0px 5px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}  
+
+article {
+    padding: 20px;
+}
+
+article > h1 {
+    font-family: "Android";
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: rgb(31, 95, 61);
+}
+
+article > h2 {
+    font-family: "Android";
+    margin-top: 20px;
+    padding-left: 10px;
+    color: rgb(31, 95, 61);
+    background-image: linear-gradient(to right, #c6ecd7, #FFFFFF);
+}
+
+article > p {
+    text-indent: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;  
+}
+
+article.video {
+    background-color: #1a5c38;
+}
+
+article.sub {
+    background-color: aqua;
+    height: 1000px;
+}

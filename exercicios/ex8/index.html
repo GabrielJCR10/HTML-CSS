@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formatação de textos</title>
+    <style>
+        mark {
+            background-color: blueviolet;
+            color: rgb(255, 247, 0);
+        }
+    </style>
+</head>
+<body>
+    <h1>Principais formatações</h1>
+    <h2>Negrito / Destaque</h2>
+    <p>Nesta frase temos um <strong>termo em negrito</strong> usando a tag strong. (Semântica)</p>
+    <p>Nesta frase temos um <b>termo em negrito</b> usando a tag b. (Não Semântica)</p>
+    <h2>Itálico / Ênfase</h2>
+    <p>Nesta frase temos um <em>termo em itálico</em> usando a tag em. (Semântica)</p>
+    <p>Nesta frase temos um <i>termo em itálico</i> usando a tag i. (Não Semântica)</p>
+    <h2>Marca-Texto</h2>
+    <p>Essa é uma frase que temos um <mark>termo com marca-texto</mark> usando a tag mark.</p>
+    <p>Essa é uma frase que temos um <mark style="background-color: red;">termo com marca-texto</mark> usando a tag mark.</p>
+    <h2>Texto Deletado</h2>
+    <p>Podemos marcar um <del>texto como excluído</del>, para indicar que ele está ali mas não deve ser considerado!</p>
+    <h2>Texto Inserido</h2>
+    <p>Podemos também marcar um <ins>texto como inserído</ins>, para indicar que ele está ali e você deve dar mais atenção a ele!</p>
+    <h2>Texto Sobrescrito</h2>
+    <p>Para inserir coisa do tipo x<sup>20</sup>+3</p>
+    <h2>Texto Subscrito</h2>
+    <p>Para inserir coisas do tipo H<sub>2</sub>O</p>
+    
+    <h1>Outras Formatações</h1>
+    <h2>Código-Fonte / Pré-Formatação</h2>
+    <p>O comando <code>document.getElementById('Teste')</code> é escrito em JavaScript!</p>
+    <h3>Exemplo de código em Python</h3>
+    <code>
+        <pre>
+    num = int(input('Digite um número inteiro: '))
+        if num % 2 == 0:
+            print('O número {num} é PAR!')
+        else:
+            print('O número {num} é ÍMPAR!')
+        print('FIM DO PROGRAMA!')
+        </pre>
+    </code>
+    <h2>Citações Simples</h2>
+    <p>Como diria o pai de um amigo: <q>O computador é um burro muito rápido!</q></p>
+    <h2>Citações Completas</h2>
+    <p>Segundo Jeff Nobel no seu livro HTML para leigos:</p>
+    <blockquote cite="www.google.com.br">
+        <q>A diferença entre um elementos inline e um bloco de texto é importante. Os elementos HTML neste capítulo descrevem o bloco de texto.</q>
+    </blockquote>
+    <h2>Abreviaçôes</h2>
+    <p>Estou estudando <abbr title="HyperText Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr>!</p>
+</body>
+</html>

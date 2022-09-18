@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/x-icon" href="ico/favicon.ico">
+    <title>Tags HTML</title>
+</head>
+<body>
+    <h1>Tags em HTML</h1>
+    <p>Em HTML5, podemos inserir os elementos da lista a seguir.<br>
+    Passe o mouse sobre os termos para descobrir qual a tag deverá utilizar em cada uso.</p><br>
+    <ul type="square">
+        <li><abbr title="Use a tag &lt;p&gt;">Parágrafos</abbr></li><br>
+        <ol>
+            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi inventore assumenda tenetur iusto <em>praesentium veniam</em>, sint sed earum quod? Illum optio quasi corporis, delectus distinctio omnis possimus ut <strong>accusamus laborum</strong>.</li>
+            <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque illum, numquam minima alias commodi aut, libero culpa ratione molestias saepe veniam a distinctio, ad dignissimos vel harum iure assumenda atque!</li>
+            <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores corporis ullam quae tenetur. Exercitationem explicabo aperiam sed commodi voluptatibus in porro culpa minima harum optio temporibus sit nam, perspiciatis enim.</li>
+        </ol><br>
+        <!-- FIM PARÁGRAFO -->
+        <li><abbr title="Use a tag &lt;h1&gt; até &lt;h6&gt;">Títulos</abbr></li>
+        <ul>
+            <li><h1><abbr title="&lt;h1&gt;">Título de nível 1</abbr></h1></li>
+            <li><h2><abbr title="&lt;h2&gt;">Título de nível 2</abbr></h2></li>
+            <li><h3><abbr title="&lt;h3&gt;">Título de nível 3</abbr></h3></li>
+            <li><h4><abbr title="&lt;h4&gt;">Título de nível 4</abbr></h4></li>
+            <li><h5><abbr title="&lt;h5&gt;">Título de nível 5</abbr></h5></li>
+            <li><h6><abbr title="&lt;h6&gt;">Título de nível 6</abbr></h6></li>
+        </ul>
+        <!-- FIM TÍTULO -->
+        <li><abbr title="Use a tag &lt;img&gt; com o atributo src">Imagens</abbr></li><br>
+        <img src="images/html5logo100.png" alt="logoHTML">
+        <img src="images/css3logo150.png" alt="logoCSS"><br><br>
+        <!-- FIM IMAGEM -->
+        <li><abbr title="Use a tag &lt;abbr&gt; com o atributo type">Abreviações</abbr></li>
+        <ol>
+            <li><p>Esse é um texto usando a linguagem de marcação <abbr title="HyperText Markup Language">HTML</abbr>.</p></li>
+        </ol>
+        <!-- FIM ABREVIAÇÃO -->
+        <li><abbr title="Use a tag &lt;code&gt;">Código-Fonte</abbr></li>
+        <ul type="disc">
+            <li>
+                <code>
+                    <pre>
+num = int(input('Digite um número inteiro: '))
+    if num % 2 == 0:
+        print('O número {num} é PAR!')
+    else:
+        print('O número {num} é ÍMPAR!')
+    print('FIM DO PROGRAMA!')
+                    </pre>
+                </code>
+            </li>
+        </ul>
+        <!-- FIM CÓDIGO-FONTE -->
+        <li><abbr title="Use a tag &lt;ol&gt; jutamente com o elemento &lt;li&gt;">Listas Numeradas</abbr></li>
+        <ol><br>
+            <li>Pão</li>
+            <li>Banana</li>
+            <li>Pera</li>
+            <li>Uva</li>
+        </ol><br>
+        <!-- FIM LISTA NUMÉRICA -->
+        <li><abbr title="Use a tag &lt;ul&gt; justamente com o elemento &lt;li&gt;">Lista com Demarcadores</abbr></li>
+        <ul type="disc"><br>
+            <li>Dinheiro</li>
+            <li>Viagens</li>
+            <li>Mundo</li>
+            <li>Aventura</li>
+        </ul><br>
+        <!-- FIM LISTA COM DEMARCADORES -->
+        <li><abbr title="Use a tag &lt;mark&gt;">Marcação</abbr></li>
+        <ul type="disc">
+            <li>
+                <p>Esse é um texto usando a tag <mark>mark para marcar textos</mark>!</p>
+                <marquee behavior="alternate" direction="down" width="250" height="250" style="border:1px solid;">
+                    <marquee behavior="alternate">
+                        <mark>Legal não ?</mark>
+                    </marquee>
+                </marquee>
+            </li>
+        </ul>
+        <!-- FIM MARCAÇÃO -->
+    </ul>
+</body>
+</html>

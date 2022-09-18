@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script:wght@400;700&display=swap');
+
+
+body {
+    font: 1em Arial, Helvetica, sans-serif;
+    background-color: rgb(252, 232, 208);
+}
+
+header > h1 {
+    font-family: 'Oleo Script', cursive;
+    font-weight: 900;
+    text-align: center;
+    color: rgba(52, 30, 6, 0.816);
+    text-shadow: 0px 1px 1px rgba(255, 156, 50, 0.816);
+}
+
+header {
+    background-image: linear-gradient(to bottom, #F2AB82, #E6DAD2);
+    margin-bottom: 10px;
+    border-radius: 4px;
+}
+
+header > nav.menu-navegacao {
+    border-radius: 4px;
+    padding: 10px 5px;
+    background-color: rgba(182, 166, 145, 0.644);
+}
+
+nav.menu-navegacao > a {
+    margin: 0px 5px;
+}
+
+article#caixa {
+    border-radius: 10px;
+    box-shadow: 2px 4px 10px #be9177bd;
+    width: 800px;
+    margin: auto;
+    padding: 1px 10px;
+    background-color: azure;
+}
